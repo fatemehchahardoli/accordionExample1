@@ -5,6 +5,7 @@ import image1 from "./images/aside-blog-01-70x70.jpg";
 import image2 from "./images/aside-blog-02-70x70.jpg";
 import image3 from "./images/aside-blog-03-70x70.jpg";
 import AccordionComp from "./components/AccordionComp";
+import css from "./css/accordionStyle.css";
 
 class App extends React.Component {
    render() {

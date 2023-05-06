@@ -4,7 +4,13 @@ import { Div } from "./styled_components/styleProduct";
 import heart from "../images/heart-svgrepo-com.svg";
 
 class Product extends Component {
-   // state = {  }
+   constructor() {
+      super();
+      this.state = {
+         flag: false,
+      };
+   }
+
    render() {
       const { image, title, price, children } = this.props;
       return (

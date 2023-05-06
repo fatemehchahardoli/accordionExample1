@@ -8,10 +8,17 @@ button {
    color: white;
    padding-top: 5px;
    height: 40px;
+   font-size: 1.2em;
 }
 .accordion:after {
    content: "^";
    font-size: 20px;
    color: white;
    float: right;
+}
+.flex {
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   margin-top: 12rem;
 }

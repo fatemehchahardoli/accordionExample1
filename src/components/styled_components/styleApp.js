@@ -6,7 +6,6 @@ const Span = styled.div`
    align-items: center;
    gap: 20px;
    width: 80%;
-
    border: 1px solid gray;
    padding: 1rem;
 `;

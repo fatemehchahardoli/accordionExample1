@@ -1,0 +1,14 @@
+.price {
+   background-color: yellow;
+   font-size: 1.3em;
+}
+h2 {
+   font-size: 1.5em;
+}
+.description {
+   width: 70%;
+}
+.svg-heart {
+   width: 30px;
+   height: 30px;
+}

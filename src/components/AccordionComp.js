@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 
 import Product from "./Product";
-import { Span } from "./styled_components/styleAccordion";
+import { Div } from "./styled_components/styleAccordion";
 import image1 from "../images/gallery-grid-8-370x278.jpg";
 import css from "../css/accordionStyle.css";
 class AccordionComp extends Component {
@@ -30,7 +30,7 @@ class AccordionComp extends Component {
                </button>
             )}
 
-            <Span flag={this.state.flag}>
+            <Div flag={this.state.flag}>
                <Product image={image1} title="product_1" price="230$">
                   {" "}
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
@@ -51,7 +51,7 @@ class AccordionComp extends Component {
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
                   amet fugit in sit adipisci odio eos eum soluta debitis dolor!
                </Product>
-            </Span>
+            </Div>
          </>
       );
    }

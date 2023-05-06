@@ -9,6 +9,7 @@ const Div = styled.div`
    flex-wrap: wrap;
    height: 420px;
    padding: 10px;
+   transition: 0.4s;
 `;
 
 export { Div };

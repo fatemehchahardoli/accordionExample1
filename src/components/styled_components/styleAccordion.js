@@ -1,5 +1,5 @@
 import styled from "styled-components";
-const Span = styled.div`
+const Div = styled.div`
    display: ${(props) => (props.flag ? "grid" : "none")};
    grid-template-columns: repeat(4, 1fr);
    justify-content: center;
@@ -8,7 +8,6 @@ const Span = styled.div`
    width: 80%;
    border: 2px solid rgba(170, 165, 165, 0.29);
    padding: 1rem;
-   transition: all 0.3s;
 `;
 
-export { Span };
+export { Div };

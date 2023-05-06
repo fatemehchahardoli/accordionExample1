@@ -15,8 +15,10 @@ button {
 .accordion:after {
    content: "^";
    font-size: 20px;
+   font-weight: bold;
    color: white;
    float: right;
+   transition: 0.4s;
 }
 .flex {
    display: flex;
@@ -33,6 +35,8 @@ button {
    content: "^";
    transform: rotate(180deg);
    font-size: 20px;
+   font-weight: bold;
    color: black;
    float: right;
+   transition: 0.4s;
 }
